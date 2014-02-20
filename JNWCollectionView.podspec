@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.osx.exclude_files = 'demo/**', 'external/**'
   s.public_header_files =
     'JNWCollectionView/JNWCollectionView.h',
+    'JNWCollectionView/JNWCollectionViewFramework.h',
     'JNWCollectionView/JNWCollectionViewCell.h',
     'JNWCollectionView/JNWCollectionViewLayout.h',
     'JNWCollectionView/NSIndexPath+JNWAdditions.h',
